@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Nunito+Sans:wght@200&family=Roboto+Mono&family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+body{
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor{
+    width: 550px;
+    height: max-content;
+    background-color: #7ee3ca94;
+    border-radius: 7px;
+    display: flex;
+    padding: 18px;
+    margin-top: 6%;
+    flex-direction: column;
+    align-items: center;
+    -webkit-box-shadow: 10px 10px 8px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 8px -7px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 8px -7px rgba(0,0,0,0.75);
+}
+
+img{
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+h1, span{
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+.contenedor__div{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+
+.usuario, .resultado, .botones{
+    margin-top: 20px;
+}
+
+.usuario input{
+    width: 13em;
+}
+
+.botones{
+    display: flex;
+    justify-content: space-between;
+}
+
+.css-button-rounded--green {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #57cc99;
+    background: #57cc99;
+  }
+  .css-button-rounded--green:hover {
+    background: #fff;
+    color: #57cc99
+  }
+
+  .res::placeholder,.us::placeholder{
+    text-align: center;
+  }

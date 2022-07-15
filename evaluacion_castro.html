@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluación - Juego: Piedra, papel o tijeras</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="contenedor">
+        <img src="imagenes/juego.jpg" width="30%">
+
+        <div class="contenedor__div">
+            <h1>Piedra, papel o tijera</h1>
+            
+            <form id="form" name="formulario">
+
+                <div class="pc">
+                    <span>Jugada de la computadora 💻: </span>
+                    <input class="jpc" type="text" id="jugadaComputadora" name="jugada_computadora" value="✱✱✱✱✱✱" disabled>
+                </div>
+                
+                <div class="usuario">
+                    <span>Jugada del usuario 👨‍💻👩‍💻: </span>
+                    <input class="us" type="text" id="jugada" name="jugada_usuario" placeholder="Ingresa tu partida">
+                </div>
+
+                <div class="botones">
+                    <button  class="css-button-rounded--green" onclick="juego()">Jugar</button>
+                    <button  class="css-button-rounded--green" type="reset">Volver a jugar</button>  
+                </div>
+            
+                <div class="resultado">
+                    <span>Resultado: </span>
+                    <input class="res" type="text" name="resultado" id="resultadoPartida" placeholder="❓" disabled>
+                </div>     
+            </form>
+
+        </div>
+        
+    </div>
+</body>
+
+<script src="js/script.js"></script>
+</html>
